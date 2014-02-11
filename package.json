@@ -10,7 +10,9 @@
     "ejs": "*",
     "pg": "latest"
   },
+  "description": "ERROR: No README data found!",
   "main": "app.js",
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/WrenQ/enotas.git"
@@ -19,4 +21,8 @@
     "node": "latest"
   },
   "author": "WrenQ",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/WrenQ/enotas/issues"
+  }
 }
