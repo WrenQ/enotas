@@ -1,29 +1,21 @@
 {
-  "name": "enotas",
+  "name": "application-name",
   "version": "0.0.1",
+  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "node": "0.10.x",
     "express": "3.4.8",
     "ejs": "*",
     "pg": "latest"
   },
-  "description": "ERROR: No README data found!",
-  
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/WrenQ/enotas.git"
+    "url": "https://github.com/WrenQ/enotas"
   },
   "engines": {
     "node": "latest"
-  },
-  "author": "WrenQ",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/WrenQ/enotas/issues"
   }
 }
