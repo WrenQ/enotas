@@ -5,5 +5,5 @@ var usuarioModel = require('../models/usuario'),
 module.exports = function(app) {
 	app.get('/', function (req, res) {
 		res.render('index', {titulo: 'Bienvenido a eNotas'});
-	})
-}
+	});
+};
