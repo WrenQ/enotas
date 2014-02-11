@@ -1,8 +1,9 @@
 
-/*
- * GET home page.
- */
+var usuarioModel = require('../models/usuario'),
+	notaModel	 = require('../models/nota');
 
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-};
+module.exports = function(app) {
+	app.get('/', function (req, res) {
+		res.render('index', {titulo: 'Bienvenido a eNotas'});
+	})
+}
